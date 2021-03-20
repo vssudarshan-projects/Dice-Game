@@ -1,0 +1,47 @@
+body{
+  background-color: black;
+}
+
+.heading{
+  text-align: center;
+  font-size: 5rem;
+  padding: 0;
+  margin: 2% 0 0 0;
+ font-weight: bold;
+}
+.container{
+  text-align: center;
+}
+
+.dice{
+  margin:0;
+  padding:0;
+  display:inline-block;
+}
+
+.button{
+  margin-top:3%;
+  display: inline-block;
+  font-size: 2.5rem;
+  border-radius: 10rem;
+
+  outline: none;
+  background-color: #FA4A37;
+font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+}
+
+.player{
+  font-size: 3rem;
+  margin-top:5%;
+  padding:0;
+}
+
+img{
+  width: 80%;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  color: #259934;
+}
