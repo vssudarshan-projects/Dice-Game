@@ -1,6 +1,6 @@
 document.querySelector("#click-btn").onclick = () => {
 
-var rnd1  = Math.floor(Math.random() * 5) + 1;
+var rnd1  = Math.floor(Math.random() * 6) + 1;
 
 switch (rnd1) {
   case 1:
@@ -23,7 +23,7 @@ switch (rnd1) {
     document.querySelector("#player1").src="./images/dice6.png";
 }
 
-rnd2  = Math.floor(Math.random() * 5) + 1;
+rnd2  = Math.floor(Math.random() * 6) + 1;
 switch (rnd2) {
 case 1:
   document.querySelector("#player2").src="./images/dice1.png";
